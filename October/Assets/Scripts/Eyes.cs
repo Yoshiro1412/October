@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class Eyes : MonoBehaviour
 {
-    private float posX;
-    private float posY;
     private bool mantener = false;
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D cuerpo;
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody2D=GetComponent<Rigidbody2D>();
+        cuerpo=GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -29,7 +27,7 @@ public class Eyes : MonoBehaviour
             Vector2 mov;
             mov = (mousePos - eye)*17;
 
-            rigidbody2D.AddForce(mov);
+            cuerpo.AddForce(mov);
         }
     }
     void Update()
