@@ -1,2 +1,2 @@
 # October
-Juego de terror-cocina
+Juego de terror cocina
