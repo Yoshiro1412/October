@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Traslacion : MonoBehaviour
+public class Traslation : MonoBehaviour
 {
     private float posX;
     private float posY;
