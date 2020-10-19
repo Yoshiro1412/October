@@ -86,6 +86,7 @@ GameObject:
   - component: {fileID: 5290920836143428565}
   - component: {fileID: 1612370311440405035}
   - component: {fileID: 1829922595438712690}
+  - component: {fileID: 5739613849540572749}
   m_Layer: 8
   m_Name: ojoEmpalable
   m_TagString: Ojo
@@ -202,8 +203,20 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7105986363797198918}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b10d2f04670b7f04b93c6cf916ef6de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5739613849540572749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105986363797198918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acd5eae059431b4b9d698228bc83562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

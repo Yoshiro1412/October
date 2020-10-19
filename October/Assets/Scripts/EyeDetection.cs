@@ -7,7 +7,13 @@ public class EyeDetection : MonoBehaviour
     int cantidadOjos = 0;
     void Update()
     {
-        if (cantidadOjos == 4) print("yei");
+        if (cantidadOjos == 4)
+        {
+            GameManager.Instance.pinchados = 0;
+            GameManager.Instance.startTransition();
+            cantidadOjos+=10000; // Evitar que se vuelve a llamar startTransition
+            print("yei");
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

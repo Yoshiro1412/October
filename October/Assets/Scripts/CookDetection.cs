@@ -47,6 +47,7 @@ public class CookDetection : MonoBehaviour
         }
         if (listo)
         {
+            GameManager.Instance.BackToEntrance();
             print("Lo has hecho!!!!!");
         }
     }

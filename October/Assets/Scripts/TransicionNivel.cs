@@ -5,24 +5,24 @@ using UnityEngine;
 public class TransicionNivel : MonoBehaviour
 {
     public Transform[] levelCenter;
-    private int level;
     public float transitionSpeed;
-    private bool hasToMove;
     private Vector3 targetPos;
 
-    private void Awake()
+    private void Start()
     {
-        level = 0;
-        MoveToNextPoint();
+        GameManager.Instance.level = 0;
+        GameManager.Instance.startTransition();
     }
 
     private void FixedUpdate()
     {
 
-        if (hasToMove)
+        if (GameManager.Instance.changeScene)
         {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, transitionSpeed * Time.deltaTime);
-            hasToMove = (transform.position != targetPos);
+            transform.position = Vector3.MoveTowards(transform.position, 
+                                                    targetPos, 
+                                                    transitionSpeed * Time.deltaTime);
+            GameManager.Instance.changeScene = (transform.position != targetPos);
         }
 
 
@@ -30,14 +30,16 @@ public class TransicionNivel : MonoBehaviour
 
     public void MoveToNextPoint()
     {
-        targetPos = new Vector3(levelCenter[level].position.x, levelCenter[level].position.y, transform.position.z);
-        hasToMove = true;
-        if(level < levelCenter.Length-1) level++;
-    }
-
+        Debug.Log("moviendo");
+        GameManager.Instance.changeScene = true;
+        targetPos = new Vector3(levelCenter[GameManager.Instance.level].position.x, 
+                                levelCenter[GameManager.Instance.level].position.y, 
+                                transform.position.z);
+        if(GameManager.Instance.level < levelCenter.Length-1) GameManager.Instance.level++;
+    }    
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C)) MoveToNextPoint();
+        if (Input.GetKeyDown(KeyCode.C)) GameManager.Instance.startTransition();
     }
 
     

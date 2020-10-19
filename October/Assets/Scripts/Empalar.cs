@@ -30,6 +30,7 @@ public class Empalar : MonoBehaviour
         {
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
             positionEye.position += up;
+            GameManager.Instance.pinchados++;
         }
     }
 }
