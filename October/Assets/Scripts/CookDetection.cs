@@ -5,26 +5,23 @@ using UnityEngine;
 public class CookDetection : MonoBehaviour
 {
     bool cociendo;
-    int proceso;
+    float proceso;
     bool listo;
     bool quemar;
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        proceso = 0f;   
     }
-
-    // Update is called once per frame
     void Update()
     {
      if (cociendo)
         {
-            proceso++;
-            if (proceso < 1000)
+            proceso+=Time.deltaTime;
+            if (proceso < 15f)
             {
                 print(proceso);
             }
-            else if (proceso > 1500)
+            else if (proceso > 20f)
             {
                 print("Se quemó wey D:");
                 listo = false;
