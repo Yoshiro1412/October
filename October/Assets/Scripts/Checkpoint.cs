@@ -10,6 +10,7 @@ public class Checkpoint : MonoBehaviour
         if(current >= checkpoints.Length)
         {
             Debug.Log("Listoko");
+            current = 0;
         }
     }
 
