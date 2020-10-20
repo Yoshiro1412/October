@@ -7,7 +7,7 @@ public class Cut : MonoBehaviour
     private bool cutting;
     private bool cutMade;
     private bool onLine;
-    private Renderer render;
+    ///private Renderer render;
     private Vector2 startPoint;
     private Vector2 endPoint;
 
@@ -15,13 +15,13 @@ public class Cut : MonoBehaviour
     {
         cutMade = false;
         cutting = false;
-        render = gameObject.GetComponent<Renderer>();
+        //render = gameObject.GetComponent<Renderer>();
     }
 
     private void OnMouseOver()
     {
         onLine = true;
-        render.material.color = Color.blue;
+        //render.material.color = Color.blue;
     }
 
     private void OnMouseDown()
@@ -47,7 +47,7 @@ public class Cut : MonoBehaviour
     {
         
         onLine = false;
-        render.material.color = cutting ? Color.red : Color.green;
+        //render.material.color = cutting ? Color.red : Color.green;
         if (cutting)
         {
             Debug.Log("Wrong");
