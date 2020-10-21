@@ -50,6 +50,7 @@ public class Cut : MonoBehaviour
         //render.material.color = cutting ? Color.red : Color.green;
         if (cutting)
         {
+            cutMade = false;
             Debug.Log("Wrong");
         }
         else if(cutMade)
