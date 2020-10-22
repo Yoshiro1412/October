@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public int level;
     public bool changeScene;
     private TransicionNivel transicion;
+    private float mainVolume = 1f;
 
     // Juego de la brocheta
     public int pinchados;
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
     {
         audioManager = AudioManager.instance;
         audioManager.PlaySound("Test");
+        audioManager.ChangeVolume(mainVolume);
     }
 
     private void Update()
@@ -62,8 +64,16 @@ public class GameManager : MonoBehaviour
 
     public void SetVolume(Slider slider)
     {
-        Debug.Log(slider.value);
-        audioManager.ChangeVolume(slider.value);
+        mainVolume = slider.value;
+        Debug.Log(mainVolume);
+        audioManager.ChangeVolume(mainVolume);
+
     }
 
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Saliendo...");
+    }
 }
