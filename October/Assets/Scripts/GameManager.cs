@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -58,5 +59,11 @@ public class GameManager : MonoBehaviour
         transicion.MoveToNextPoint();
     }
 
+
+    public void SetVolume(Slider slider)
+    {
+        Debug.Log(slider.value);
+        audioManager.ChangeVolume(slider.value);
+    }
 
 }

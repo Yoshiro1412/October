@@ -28,6 +28,11 @@ public class Sound
         source.pitch = pitch;
         source.Play();
     }
+
+    public void SetVolume(float _volume)
+    {
+        source.volume = _volume;
+    }
 }
 
 public class AudioManager : MonoBehaviour
@@ -70,5 +75,10 @@ public class AudioManager : MonoBehaviour
                 return;
             }
         }
+    }
+
+    public void ChangeVolume(float volume)
+    {
+        sounds[0].SetVolume(volume);
     }
 }
