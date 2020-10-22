@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 
     public int entranceScene;
 
+    private AudioManager audioManager;
+
 
     // Manejo escenas minijuegos
     public int level;
@@ -27,6 +29,12 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Start()
+    {
+        audioManager = AudioManager.instance;
+        audioManager.PlaySound("Test");
     }
 
     private void Update()
