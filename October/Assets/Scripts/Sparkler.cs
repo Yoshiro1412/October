@@ -10,7 +10,7 @@ public class Sparkler : MonoBehaviour
     {
         if(collision.gameObject == collisionCup) 
         {
-            print("Le pusiste chispa");
+            GameManager.Instance.BackToEntrance();
         }
     }
 }

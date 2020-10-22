@@ -22,9 +22,8 @@ public class RotateCheck : MonoBehaviour
         {
             Debug.Log(tiempo);
             tiempo += Time.deltaTime;
-            if(tiempo >= 10f) {
-                //Termina el juego
-                Debug.Log("Termino");
+            if(tiempo >= 6f) {
+                GameManager.Instance.startTransition();
                 count = false;
             }
         } 

@@ -10,9 +10,15 @@ public class Shaker : MonoBehaviour
     {
         if(current >= checkpoints.Length)
         {
-            Debug.Log(counter);
             current = 0;
             counter++;
+            Debug.Log(counter);
+        }
+
+        if(counter == 5) 
+        {
+            counter = 0;
+            GameManager.Instance.startTransition();
         }
     }
 
