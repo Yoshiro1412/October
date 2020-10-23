@@ -38,9 +38,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        /*
         audioManager = AudioManager.instance;
         audioManager.PlaySound("Test");
         audioManager.ChangeVolume(mainVolume);
+        */
     }
 
     private void Update()
