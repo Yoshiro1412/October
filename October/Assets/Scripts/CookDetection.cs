@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class CookDetection : MonoBehaviour
 {
@@ -9,6 +8,8 @@ public class CookDetection : MonoBehaviour
     bool listo;
     bool quemar;
     public float tiempo;
+    public Text text;
+    
     void Awake()
     {
         proceso = 0f;   
@@ -30,6 +31,7 @@ public class CookDetection : MonoBehaviour
             }
             else
             {
+                text.gameObject.SetActive(true);
                 print("Ya ta wey");
                 listo = true;
             }

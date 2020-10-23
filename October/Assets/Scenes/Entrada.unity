@@ -284,7 +284,10 @@ MonoBehaviour:
   - name: Zombie
     prefab: {fileID: 7558335253671747905, guid: ddc2c9a6f2c076544a7b1e7593f9a608,
       type: 3}
-    miniJuegos: 02000000
+    miniJuegos: 0200000003000000
+  - name: Demonio
+    prefab: {fileID: 99070632709413572, guid: bd09331192b5aec47a0f4d1626085f4b, type: 3}
+    miniJuegos: 0400000005000000
 --- !u!4 &382493376
 Transform:
   m_ObjectHideFlags: 0

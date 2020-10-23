@@ -733,10 +733,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9189985666fea354e8863335e5dc365a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entranceScene: 0
+  entranceScene: 1
   level: 0
   changeScene: 0
   pinchados: 0
+  cortes: 0
 --- !u!4 &1093651094
 Transform:
   m_ObjectHideFlags: 0

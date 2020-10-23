@@ -53,10 +53,11 @@ public class AudioManager : MonoBehaviour
         else
         {
             instance = this;
+            setSources();
         }
     }
 
-    private void Start()
+    private void setSources()
     {
         for (int i = 0; i < sounds.Length; i++)
         {
