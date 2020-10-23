@@ -10,6 +10,9 @@ public class Cut : MonoBehaviour
     ///private Renderer render;
     private Vector2 startPoint;
     private Vector2 endPoint;
+    private Vector2 diff;
+
+    public float cutMinSize;
 
     private void Awake()
     {
@@ -37,7 +40,7 @@ public class Cut : MonoBehaviour
         if (cutting && onLine) {
             Debug.Log("Buena");
             // 10 de size = 3 de maginitud
-            Vector2 diff = endPoint - startPoint;
+            diff = endPoint - startPoint;
             Debug.Log(diff.magnitude);
         }
         cutting = false;
@@ -57,6 +60,11 @@ public class Cut : MonoBehaviour
         {
             Debug.Log("Good");
             cutMade = false;
+            if (diff.magnitude >= cutMinSize)
+            {
+                GameManager.Instance.cortes++;
+                Debug.Log("Cortado");
+            }
         }
     }
 }

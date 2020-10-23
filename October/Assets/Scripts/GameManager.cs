@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
     // Juego de la brocheta
     public int pinchados;
 
+    // Juego del batido
+    public int cortes;
+
     private void Awake()
     {
         if(Instance == null)
@@ -46,6 +49,16 @@ public class GameManager : MonoBehaviour
         {
             startTransition();
             pinchados++; // evitar llamarlo dos veces
+        }
+
+        if (cortes == 1 && level == 1)
+        {
+            startTransition();
+            cortes = 0;
+        }else if(cortes == 3 && level == 2)
+        {
+            startTransition();
+            cortes = 0;
         }
     }
 

@@ -8,6 +8,8 @@ public class Apretar : MonoBehaviour
     private bool onHeart;
     private bool holding;
     public float minScale;
+    private float timeHold;
+    public float time;
 
     private void Awake()
     {
@@ -17,6 +19,12 @@ public class Apretar : MonoBehaviour
 
     private void Update()
     {
+
+        if(timeHold >= time)
+        {
+            GameManager.Instance.BackToEntrance();
+        }
+
         if (Input.GetMouseButton(0) && onHeart)
         {
             holding = true;
@@ -29,6 +37,11 @@ public class Apretar : MonoBehaviour
         if(transform.localScale.x < minScale)
         {
             Debug.Log("Exploto!!!");
+        }
+        else if(holding)
+        {
+            timeHold += Time.deltaTime;
+            Debug.Log(timeHold);
         }
     }
 

@@ -8,6 +8,7 @@ public class CookDetection : MonoBehaviour
     float proceso;
     bool listo;
     bool quemar;
+    public float tiempo;
     void Awake()
     {
         proceso = 0f;   
@@ -17,7 +18,7 @@ public class CookDetection : MonoBehaviour
      if (cociendo)
         {
             proceso+=Time.deltaTime;
-            if (proceso < 15f)
+            if (proceso < tiempo)
             {
                 print(proceso);
             }
