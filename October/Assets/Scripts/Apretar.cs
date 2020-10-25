@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.ParticleSystemJobs;
 
 public class Apretar : MonoBehaviour
 {
@@ -10,6 +9,7 @@ public class Apretar : MonoBehaviour
     public float minScale;
     private float timeHold;
     public float time;
+    public ParticleSystem ps;
 
     private void Awake()
     {
@@ -40,8 +40,14 @@ public class Apretar : MonoBehaviour
         }
         else if(holding)
         {
+            ps.Play();
             timeHold += Time.deltaTime;
             Debug.Log(timeHold);
+        }
+        else
+        {
+            ps.Clear();
+            ps.Pause();
         }
     }
 

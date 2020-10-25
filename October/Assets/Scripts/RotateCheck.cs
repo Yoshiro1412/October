@@ -1,12 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.ParticleSystemJobs;
 
 public class RotateCheck : MonoBehaviour
 {
     public GameObject checkpoint;
     private bool count;
     private float tiempo;
+    public ParticleSystem ps;
 
     // Start is called before the first frame update
     private void Awake()
@@ -20,6 +20,7 @@ public class RotateCheck : MonoBehaviour
     {
         if(count) 
         {
+            ps.Play();
             Debug.Log(tiempo);
             tiempo += Time.deltaTime;
             if(tiempo >= 6f) {
@@ -29,6 +30,8 @@ public class RotateCheck : MonoBehaviour
         } 
         else
         {
+            ps.Clear();
+            ps.Pause();
             tiempo = 0f;
         }
     }
