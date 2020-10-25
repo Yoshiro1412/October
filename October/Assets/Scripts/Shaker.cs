@@ -6,6 +6,8 @@ public class Shaker : MonoBehaviour
     private int current;
     private int counter;
 
+    private Animator anim;
+
     private void Update()
     {
         if(current >= checkpoints.Length)
@@ -28,12 +30,23 @@ public class Shaker : MonoBehaviour
         counter = 0;
     }
 
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(current < checkpoints.Length && collision.gameObject == checkpoints[current])
         {
             current++;
+            anim.SetBool("isColliding", true);
         }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D other) {
+        anim.SetBool("isColliding", false);
     }
 
 }
