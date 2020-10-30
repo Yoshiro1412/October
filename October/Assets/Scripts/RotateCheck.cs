@@ -6,13 +6,17 @@ public class RotateCheck : MonoBehaviour
     public GameObject checkpoint;
     private bool count;
     private float tiempo;
-    public ParticleSystem ps;
+    public Animator anim;
+    public string stateName;
+
+    private bool started;
 
     // Start is called before the first frame update
     private void Awake()
     {
         count = false;
         tiempo = 0f;
+        started = false;
     }
 
     // Update is called once per frame
@@ -20,19 +24,12 @@ public class RotateCheck : MonoBehaviour
     {
         if(count) 
         {
-            ps.Play();
-            Debug.Log(tiempo);
             tiempo += Time.deltaTime;
             if(tiempo >= 6f) {
+                anim.SetBool("isFull", true);
                 GameManager.Instance.startTransition();
                 count = false;
             }
-        } 
-        else
-        {
-            ps.Clear();
-            ps.Pause();
-            tiempo = 0f;
         }
     }
 
@@ -41,7 +38,17 @@ public class RotateCheck : MonoBehaviour
         if(collision.gameObject == checkpoint)
         {
             count = true;
-            Debug.Log("Entro al checkpoint");
+
+            if(anim != null && !started)
+            {
+                anim.SetBool("isFilling", true);
+                anim.Play(stateName, 0, 0);
+                started = true;
+            }
+            else if(anim != null && started)
+            {
+                anim.speed = 1;
+            }
         }
     }
 
@@ -49,6 +56,7 @@ public class RotateCheck : MonoBehaviour
         if(collision.gameObject == checkpoint) 
         {
             count = false;
+            anim.speed = 0;
         }
     }
 }
