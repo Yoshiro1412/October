@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Helado.unity
     guid: ef35c2933df6b5040b76243c25ed20ce
   - enabled: 1
-    path: Assets/Scenes/Levels/ShakerScene.unity
+    path: Assets/Scenes/TestScenes/ShakerScene.unity
     guid: 6d5f53e0c65884382bf80babfb02463e
   m_configObjects: {}
