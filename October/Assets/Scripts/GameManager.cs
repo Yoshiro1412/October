@@ -11,6 +11,13 @@ public class GameManager : MonoBehaviour
     private AudioManager audioManager;
 
 
+    // tiempo
+    private bool gameStarted;
+    public float limitTime;
+    public Text timer;
+    private int terminados;
+    public Text score;
+
     // Manejo escenas minijuegos
     public int level;
     public bool changeScene;
@@ -38,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        gameStarted = false;
         /*
         audioManager = AudioManager.instance;
         audioManager.PlaySound("Test");
@@ -47,6 +55,27 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+
+        if(limitTime < 0f)
+        {
+            Debug.Log("Fin del juego");
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            startGame();
+        }
+
+        if (gameStarted)
+        {
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                Terminado();
+            }
+            limitTime -= Time.deltaTime;
+            timer.text = ((int)limitTime).ToString();
+        }
+
         if(pinchados == 4)
         {
             startTransition();
@@ -91,4 +120,17 @@ public class GameManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Saliendo...");
     }
+
+
+    public void Terminado()
+    {
+        terminados++;
+        score.text = "Atendidos: "+ terminados.ToString();
+    }
+
+    public void startGame()
+    {
+        gameStarted = true;
+    }
+
 }
