@@ -68,17 +68,19 @@ public class GameManager : MonoBehaviour
             Debug.Log("Fin del juego");
         }
 
+        /*
         if (Input.GetKeyDown(KeyCode.P))
         {
             startGame();
-        }
+        }*/
 
         if (gameStarted)
         {
+            /*
             if (Input.GetKeyDown(KeyCode.P))
             {
                 Terminado();
-            }
+            }*/
             limitTime -= Time.deltaTime;
             timer.text = ((int)limitTime).ToString();
         }
