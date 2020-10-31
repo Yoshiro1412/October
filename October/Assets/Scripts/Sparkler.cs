@@ -35,7 +35,7 @@ public class Sparkler : MonoBehaviour
             time += Time.deltaTime;
         }
 
-        if(time >= 1.5f)
+        if(time >= 1.8f)
         {
             GameManager.Instance.BackToEntrance();
         }

@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 95159475}
   - component: {fileID: 95159474}
   - component: {fileID: 95159476}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (5)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 105539102}
   - component: {fileID: 105539103}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Linea punteada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 9e49f7f3d1374ef48b73b186ebf3b81c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 115487921}
   - component: {fileID: 115487923}
   - component: {fileID: 115487922}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Corte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,7 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 124024046}
   - component: {fileID: 124024047}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Linea punteada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 9e49f7f3d1374ef48b73b186ebf3b81c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -505,7 +505,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 124446832}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Escena1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   - component: {fileID: 184649256}
   - component: {fileID: 184649255}
   - component: {fileID: 184649257}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (4)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -661,7 +661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212968379}
   - component: {fileID: 212968380}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Linea punteada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351394515}
   - component: {fileID: 351394516}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -834,7 +834,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 50305d5c8f61d0c41948d97f739684da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -846,6 +846,39 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &432580404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432580405}
+  m_Layer: 0
+  m_Name: Backgrounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432580405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432580404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1716611, y: -0.19817877, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1533892480}
+  - {fileID: 1893428402}
+  - {fileID: 1988070619}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &437887608
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,7 +888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437887609}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Escena2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -925,7 +958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 449439865}
   - component: {fileID: 449439866}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -984,7 +1017,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 67155adebda66854f94536e1aa6f95fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1008,7 +1041,7 @@ GameObject:
   - component: {fileID: 559752117}
   - component: {fileID: 559752116}
   - component: {fileID: 559752118}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (2)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -1101,7 +1134,7 @@ GameObject:
   - component: {fileID: 692458301}
   - component: {fileID: 692458300}
   - component: {fileID: 692458302}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (7)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -1192,7 +1225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 742437916}
   - component: {fileID: 742437917}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1284,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 08218e026c3883d42bd187fff14d314e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1273,7 +1306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759929599}
   - component: {fileID: 759929600}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: plato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1332,8 +1365,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0ca97a1e4ce58d848b3bb1fdca2b06f6, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: cdbfe02ac99af475bb7e4edcbccaaf86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1454,7 +1487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 849862422}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Carne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1486,7 +1519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 856806778}
   - component: {fileID: 856806779}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: plato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1545,8 +1578,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0ca97a1e4ce58d848b3bb1fdca2b06f6, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: b695266e4a0bc402393e3e4797142540, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1567,7 +1600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 936071265}
   - component: {fileID: 936071266}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Cabeza1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1659,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 062a3e0041a62204a8aa4e909af6f19c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1649,7 +1682,7 @@ GameObject:
   - component: {fileID: 948210075}
   - component: {fileID: 948210077}
   - component: {fileID: 948210076}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Corte (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1012403620}
   - component: {fileID: 1012403621}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: CerebroCompleto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1779,7 +1812,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5ae8f079853021d4d921358dbdf3ee99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1801,7 +1834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1018463690}
   - component: {fileID: 1018463691}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1860,7 +1893,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 772af5bae3bc7a94399fda0bf0c80cf4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1882,7 +1915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1031335030}
   - component: {fileID: 1031335031}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Posillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1897,8 +1930,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031335029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.6, y: 0.28, z: 0}
-  m_LocalScale: {x: 2.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 37.6, y: -1.64, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 759929599}
   m_Father: {fileID: 1114297480}
@@ -1920,10 +1953,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.1178398, y: -0.028083533}
-  - {x: -0.3376236, y: -0.6101463}
-  - {x: 0.5576172, y: -0.63914526}
-  - {x: 1.089756, y: 0.084251136}
+  - {x: -1.4792252, y: 0.95414776}
+  - {x: -0.82873917, y: 0.40915054}
+  - {x: 1.3915863, y: 0.49134737}
+  - {x: 1.8403301, y: 1.0942814}
 --- !u!1 &1049928096
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,7 +1966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1049928097}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Cortes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1968,7 +2001,7 @@ GameObject:
   - component: {fileID: 1062007983}
   - component: {fileID: 1062007985}
   - component: {fileID: 1062007984}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Corte (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2038,7 +2071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1114297480}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Escena3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2180,7 +2213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1182617312}
   - component: {fileID: 1182617313}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2239,7 +2272,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8132dc4acc6acbe4c9e85940a6983f68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2369,7 +2402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1360369303}
   - component: {fileID: 1360369304}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Linea punteada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,7 +2461,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 9e49f7f3d1374ef48b73b186ebf3b81c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2450,7 +2483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1433630620}
   - component: {fileID: 1433630621}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2509,7 +2542,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d23514e949e6d9647902f0bcc05f4837, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2614,7 +2647,7 @@ GameObject:
   - component: {fileID: 1524190948}
   - component: {fileID: 1524190947}
   - component: {fileID: 1524190949}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -2695,6 +2728,87 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!1 &1533892479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1533892480}
+  - component: {fileID: 1533892481}
+  m_Layer: 0
+  m_Name: Background1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1533892480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533892479}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.22, y: 0.467, z: 0}
+  m_LocalScale: {x: 1, y: 1.0133561, z: 1}
+  m_Children: []
+  m_Father: {fileID: 432580405}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1533892481
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533892479}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ed7ae68f9a23046ddb229f57624eb3cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 9.36}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1540694643
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,7 +2819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540694644}
   - component: {fileID: 1540694645}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2764,7 +2878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 42d54d55761813b498e933af0868f402, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2788,7 +2902,7 @@ GameObject:
   - component: {fileID: 1570810727}
   - component: {fileID: 1570810729}
   - component: {fileID: 1570810728}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: CabezaPlato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2804,7 +2918,7 @@ Transform:
   m_GameObject: {fileID: 1570810725}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 47.75, y: -2.62, z: 0}
-  m_LocalScale: {x: 3, y: 2, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 856806778}
   m_Father: {fileID: 1114297480}
@@ -2826,10 +2940,18 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -1.1178398, y: 0.02808404}
-  - {x: -0.308609, y: -0.57181954}
-  - {x: 0.5561409, y: -0.63677907}
-  - {x: 1.1178436, y: 0.11233473}
+  - {x: -1.4514294, y: 1.1863759}
+  - {x: -1.4120159, y: 0.52111274}
+  - {x: -1.3350563, y: 0.14194489}
+  - {x: -1.2105103, y: -0.19270217}
+  - {x: -1.0367851, y: -0.4829769}
+  - {x: -0.6663017, y: -0.7180071}
+  - {x: -0.22409439, y: -0.7554836}
+  - {x: 0.1634903, y: -0.64017165}
+  - {x: 0.3585682, y: -0.46062374}
+  - {x: 0.6210041, y: 0.048929572}
+  - {x: 0.7227783, y: 0.5779798}
+  - {x: 0.76572037, y: 1.2150283}
 --- !u!114 &1570810728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2992,7 +3114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1692923389}
   - component: {fileID: 1692923390}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Tablacortar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3051,7 +3173,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 5d8296d29baf74f4e9cf1ccc3da0a7da, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3072,7 +3194,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1753394039}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Cabeza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3106,7 +3228,7 @@ GameObject:
   - component: {fileID: 1797105264}
   - component: {fileID: 1797105263}
   - component: {fileID: 1797105265}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (3)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -3197,7 +3319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1861420312}
   - component: {fileID: 1861420313}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: C4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3256,7 +3378,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 58b4dead174430f44b7b5827671949ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3406,6 +3528,168 @@ Transform:
   m_Father: {fileID: 234112217}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1893428401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1893428402}
+  - component: {fileID: 1893428403}
+  m_Layer: 0
+  m_Name: Background2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1893428402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893428401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.27, y: 0.467, z: 0}
+  m_LocalScale: {x: 1, y: 1.0133561, z: 1}
+  m_Children: []
+  m_Father: {fileID: 432580405}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1893428403
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893428401}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ed7ae68f9a23046ddb229f57624eb3cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 9.36}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1988070618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1988070619}
+  - component: {fileID: 1988070620}
+  m_Layer: 0
+  m_Name: Background3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1988070619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988070618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.68, y: 0.467, z: 0}
+  m_LocalScale: {x: 1, y: 1.0133561, z: 1}
+  m_Children: []
+  m_Father: {fileID: 432580405}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1988070620
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988070618}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ed7ae68f9a23046ddb229f57624eb3cf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 18, y: 9.36}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2018965538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2018965539}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Sesos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3455,7 +3739,7 @@ GameObject:
   - component: {fileID: 2023145512}
   - component: {fileID: 2023145514}
   - component: {fileID: 2023145513}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Corte
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3489,7 +3773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cd9e087f11d6484ab356abcb16d8264, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cutMinSize: 9
+  cutMinSize: 3.5
 --- !u!61 &2023145514
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3609,7 +3893,7 @@ GameObject:
   - component: {fileID: 2104993670}
   - component: {fileID: 2104993669}
   - component: {fileID: 2104993671}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (6)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
@@ -3702,7 +3986,7 @@ GameObject:
   - component: {fileID: 2105512611}
   - component: {fileID: 2105512610}
   - component: {fileID: 2105512612}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: TrozoSeso (1)
   m_TagString: Ojo
   m_Icon: {fileID: 0}
