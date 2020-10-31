@@ -14,9 +14,11 @@ public class GameManager : MonoBehaviour
     // tiempo
     private bool gameStarted;
     public float limitTime;
-    public Text timer;
+    public Canvas canvas;
+    private Canvas _canvas;
+    private Text timer;
     private int terminados;
-    public Text score;
+    private Text score;
 
     // Manejo escenas minijuegos
     public int level;
@@ -45,6 +47,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        _canvas = Instantiate(canvas);
+        Text[] texts = _canvas.gameObject.GetComponentsInChildren<Text>();
+        timer = texts[0];
+        score = texts[1];
+
         gameStarted = false;
         /*
         audioManager = AudioManager.instance;
